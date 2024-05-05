@@ -79,10 +79,21 @@ justify-content: center;
     position: relative; /* Add this line to enable the use of 'top' */
     z-index: 999; /* Ensure the container is above other elements */
 }
+.center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+        }
+
 .topnav {
+    margin-bottom: 40px;
 height:55px;
   overflow: hidden;
- 
+  
+  z-index: 999;
 }
 
 .topnav a {
